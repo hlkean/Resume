@@ -1,0 +1,75 @@
+/*CSS Stylesheet */
+
+body {
+margin: 0 auto;
+    width: 960px;
+   background: #000 url(sky.jpg) center center fixed no-repeat;
+/*   picture from: http://chocolateir-stock.deviantart.com/art/Sky-86929263*/
+    -moz-background-size: cover;
+    background-size:cover;
+    color:#fff;
+   
+}
+
+
+#wrapper{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto; 
+/*    border: 5px solid white;*/
+    background-color: rgba(0,0,0,.25);
+    height: fixed;
+    max-height: 400px;
+    overflow: scroll;
+    position: absolute;
+    bottom: 179px;
+
+}
+
+header{
+    height: 100px;
+    background-color: rgba(29,10,140,1);
+border-bottom: 3px solid black;
+/*    position: fixed;*/
+    padding-left: 480px;
+    padding-right: 480px;
+    
+}
+
+h1{
+
+
+}
+.allText{
+/*    max-height: 400px;*/
+    padding-top: 271px
+    
+}
+
+.hair{ 
+    position: relative;
+    align-content: center;
+}
+
+
+
+
+
+footer{
+position: absolute;
+    bottom:0;
+ background-color: rgba(29,10,140,0);
+/*    border: 1px solid white;*/
+    margin: 0 auto;
+    
+    width: 960px;
+   
+    
+    
+}
+
+.face{
+    padding-left: 287px
+    
+}
+

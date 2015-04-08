@@ -1,0 +1,198 @@
+/*CSS Stylesheet */
+
+body {
+margin: 0 auto;
+    width: 960px;
+   background: #000 url(sky.jpg) center center fixed no-repeat;
+/*   picture from: http://chocolateir-stock.deviantart.com/art/Sky-86929263*/
+    -moz-background-size: cover;
+    background-size:cover;
+    color:#fff;
+
+   
+}
+
+@font-face{
+   font-family: blake;
+    src: url(blake2.ttf);
+}
+
+@font-face{
+    font-family: park;
+    src: url(park-lane.ttf)
+}
+
+
+header{
+    height: 100px;
+    background-color: rgba(0,0,0,.25);
+    text-align: center;
+    overflow:hidden;
+/*border-bottom: 3px solid black;*/
+
+}
+
+
+header h1{
+    font-family: blake;
+    font-size: 5em;
+   margin-top: -.25px;
+    padding-top: 18px;
+        
+}
+
+div{
+
+}
+
+aside{
+    float: left;
+    position: relative;
+    left: 0
+}
+aside img{
+    opacity: 0.5;
+}
+aside img:hover{
+    opacity: 1;
+    
+}
+
+#wrapper{
+/*    text-align: center;*/
+    width: 820px;
+    
+    margin: 0 auto; 
+/*    border: 5px solid white;*/
+    background-color: rgba(0,0,0,.25);
+    height: fixed;
+    max-height: 532px;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+/*    bottom: 161px;*/
+    margin-left: 140px;
+    margin-bottom: -100px;
+   
+
+}
+
+.secHead{
+    text-align: center;
+    font-family: blake;
+    font-size: 2em;
+}
+
+span{
+    font-family: blake;
+    font-size: 1.2em;
+}
+
+span a{
+    font-family: blake;
+    text-decoration: none;
+    color: rgba(255,255,255,1);
+
+}
+
+span a:hover{
+    font-family: park;
+    color: rgba(62,204,74,1.0);
+/*    font-style: italic;*/
+   text-decoration: underline;
+}
+
+.contact{
+ font-size: .95em; 
+    
+}
+.education{
+    text-align: left;
+}
+.degree{
+    
+    margin-left: 290px;
+    border-bottom: 1px solid white;
+}
+
+.class{
+    margin-left: 490px;
+    border-bottom: 1px solid white;
+}
+.date{
+    text-align: right;
+}
+
+.position1{
+    margin-left: 430px;
+    border-bottom: 1px solid white;
+}
+
+.position2{
+    margin-left: 519px;
+    border-bottom: 1px solid white;
+}
+
+.position3{
+    margin-left: 147px;
+    border-bottom: 1px solid white;
+}
+
+.position4{
+    margin-left: 320px;
+    border-bottom: 1px solid white;
+}
+
+.position5{
+margin-left: 587px;
+    border-bottom: 1px solid white;
+}
+
+.position6{
+    margin-left: 628px;
+    border-bottom: 1px solid white;
+}
+.allText{
+/*    max-height: 400px;*/
+    padding-top: 432px
+    
+}
+
+ul{
+font-family: blake;
+    line-height: 23px;
+}
+.hair{ 
+    position: relative;
+    align-content: center;
+    padding-left: 235px;
+}
+
+
+.face{
+    padding-left: 195px;
+    position: relative;
+
+   
+    
+}
+
+
+
+
+
+
+footer{
+position: relative;
+/*    bottom:0;*/
+ background-color: rgba(29,10,140,0);
+/*    border: 1px solid white;*/
+    margin: 0 auto;
+    margin-top: 532px;
+    
+    width: 800px;
+   
+    
+    
+}
+

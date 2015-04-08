@@ -1,0 +1,63 @@
+/*CSS Stylesheet */
+
+body {
+margin: 0 auto;
+    width: 960px;
+   
+    
+   
+}
+
+
+#wrapper{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto; 
+/*    border: 5px solid white;*/
+    background-color: green;
+    height: fixed;
+    max-height: 400px;
+    overflow: scroll;
+
+}
+
+header{
+    height: 100px;
+    background-color: white;
+border-bottom: 3px solid black;
+/*    position: fixed;*/
+    padding-left: 480px;
+    padding-right: 480px
+}
+
+article{
+    max-height: 400px;
+    padding-top: 147px
+    
+}
+.hair{ 
+    position: relative;
+    align-content: center;
+}
+
+
+
+
+
+footer{
+position: fixed;
+ background-color: rgba(0,10,60,1);
+/*    border: 1px solid white;*/
+    margin: 0 auto;
+    
+    width: 960px;
+   
+    
+    
+}
+
+.face{
+    padding-left: 287px
+    
+}
+
